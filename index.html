@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico 1</title>
+</head>
+<style>
+    table{
+     width: 100%;
+     border-collapse: collapse;
+
+    }
+    th,td{ border: 1px solid blue; padding: 8px; text-align: center;}
+    tfoot{background-color: chartreuse;font-weight: bold;}
+    header,footer{background-color: black;
+    color: yellow;
+    text-align: center; padding: 5px;}
+    body{margin: 0; padding: 0;}
+    main{padding: 10px;}
+    section{
+        margin-bottom: 40px;
+        padding: 8px;
+        border: 2px solid lightcoral;}
+    
+
+</style>
+<body>
+<header> <h1>Encabezado Principal</h1></header>
+<main> 
+    <a href="#ENCA">Ir a Encabezado y Propiedadesdel texto</a><br>
+    <a href="#Divisiones">Ir a Divisiones y Agrupación de Contenido</a><br>
+    <a href="#Enlaces">Ir a Enlaces y Listas</a><br>
+    <a href="#MULTI">Ir a Multimedia</a><br>
+    <a href="#tabla">Ir a Tabla</a><br>
+    <a href="#form">Ir a Formulario</a><br>
+<section>
+    <h2 id="ENCA">2.Encabezados y Propiedades del Texto</h2>
+    <h1>esto es un h1</h1>   
+    <h2>esto es un h2</h2>
+    <h3>esto es un h3</h3>
+    <h4>esto es un h4</h4>
+    <h5>esto es un h5</h5>
+    <h6>esto es un h6</h6>
+
+   <p> <b>Esto es NEGRITA</b></p>
+   <p> <U>Esto es SUBRAYADO</U></p>
+    <p> <em> Esto es Cursiva</em> </p>
+</section>
+<section>
+    
+<h3 id="Divisiones">3.Divisiones y Agrupación de Contenido</h3>
+<div>
+    <h3>Esta es la sección 1</h3>
+    <p><b>Contenido sección 1:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+<div>
+    <h4>Esta es la sección 2</h4>
+    <p> <b>Contenido sección 2:</b> ipsum dolor sit amet consectetur adipisicing elit.</p>
+</div>
+</section>
+<section>
+
+
+<h2 id="Enlaces">4.Enlaces y Listas</h2>
+<!-- ENLACES EXTERNOS -->
+ <div>
+    <h3>Enlaces internos</h3>
+    <nav>
+    <a href="https://www.youtube.com">Ir a youtube</a>
+    <a href="https://www.youtube.com" target="_blank">Ir a youtube en otra pestaña</a>
+    </nav>
+ </div>
+ <div>
+    <!-- ENLACES INTERNOS -->
+     <h3>Enlaces internos</h3>
+     <a href="#ENCA">Ir a Encabezados y Propiedades del Texto</a> <br>
+     <a href="#MULTI">Ir a Multimedia</a>
+ </div>
+ <!-- LISTAS -->
+  <h3>LISTAS</h3>
+ <ol>
+    <h4>Lista ordenada</h4>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemneto 3</li>
+        <li>elemento 4</li>
+ </ol>
+ <ul>
+    <h4>Lista desordenada</h4>
+    <li>elemento 1</li>
+    <li>elemento 2</li>
+    <li>elemneto 3</li>
+    <li>elemento 4</li>
+</ul>
+</section>
+<section>
+<div>
+    <h2 id="MULTI">5.MULTIMEDIA</h2>
+    <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    <img src="https://i5.walmartimages.com/seo/DC-LEGO-Batman-Movie-Vacation-Batman-Minifigure_4a3d99b0-e55e-45da-8e6e-5a4e7f04b9ec.ad7d829ba9bf3ac996a5570b043ece99.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" 
+    width="300px" height="300px"     alt="esto es una imagen de lego batman">
+    <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls ><br>
+    
+</section>
+<section>
+
+
+
+</div>
+<div>
+    <h2 id="tabla">6.TABLA</h2>
+    <table>
+        <thead>
+            <tr>
+                    <th> Colunma 1</th>
+                    <th> Colunma 2</th>
+                    <th> Colunma 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                    <td>Fila 1 , Celda 1</td>
+                    <td>Fila 1 , Celda 2</td>
+                    <td>Fila 1 , Celda 3</td>
+          </tr>
+          <tr>
+            <td>Fila 2 , Celda 1</td>
+            <td>Fila 2 , Celda 2</td>
+            <td>Fila 2 , Celda 3</td>         
+          </tr>
+          <tr>
+            <td>Fila 3 , Celda 1</td>
+            <td>Fila 3 , Celda 2</td>
+            <td>Fila 3 , Celda 3</td>         
+          </tr>
+        </tbody>
+        
+        <tfoot>
+<tr>
+            <td>Total 1</td>
+            <td>Total 2</td>
+            <td>Total 3</td>  
+        </tr>
+        </tfoot>
+    </table>
+<div>
+
+</section>
+<section>
+<h2 id="form">7.Formulario</h2>
+
+<form>
+    <div>
+        <label>Email</label>
+        <input type="email" placeholder="ejemplo@gmail.com">
+    </div>
+    <div>
+        <label>Nombre</label>
+        <input type="text" placeholder="Ingrese nombre">
+    </div> 
+    <div>
+        <label>Apellido</label>
+        <input type="text" placeholder="Ingrese apellido"></div>
+    <div>
+        <label>Edad</label>
+        <input type="number" placeholder="Ingrese edad"></div>
+    <div>
+        <label>Fecha de nacimiento</label>
+        <input type="date" placeholder="Ingrese Fecha de nacimiento"></div>
+        <div>
+            <label>Observaciones</label>
+            <textarea placeholder="Ingrese Observaciones"></textarea></div>
+        <button type="submit">Enviar</button>
+    </form>
+
+</section>
+
+</main> 
+    <footer>Este es el pie de página</footer>
+</body>
+</html>
