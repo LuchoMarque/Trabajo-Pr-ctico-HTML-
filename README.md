@@ -27,4 +27,4 @@ Para este proyecto, utilicé **HTML**(La estructura básica de la página)
 
 ## Despliegue
 
-Utilicé gitHub para realizar el despliegue de mi proyecto. Puedes ver mi proyecto desplegado en 
+Utilicé gitHub para realizar el despliegue de mi proyecto. Puedes ver mi proyecto desplegado en https://luchomarque.github.io/Trabajo-Pr-ctico-HTML-/
